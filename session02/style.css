@@ -1,0 +1,28 @@
+body {
+  font-family: "Lato", sans-serif;
+  border-style: groove;
+  padding: 5px;
+  border-color: palegoldenrod;
+  border-width: 5px;
+  color: royalblue;
+}
+
+p {
+  font-style: italic;
+  font-weight: 400;
+  text-indent: 10px;
+}
+
+h3 {
+  text-decoration: underline;
+  background: palegoldenrod;
+}
+
+.emphasized {
+  font-weight: bold;
+  color: rgb(23, 69, 129);
+}
+
+h2 {
+  font-weight: lighter;
+}
