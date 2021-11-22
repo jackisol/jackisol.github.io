@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="menu.js" type="application/javascript"></script>
+  </head>
+  <body>
+    <div class="outer">
+      <div id="page">
+        <div class="pageheader">
+          <div class="logo">
+            <a href="index.html"
+              ><img src="img/logo.png" alt="BestBuy Logo" class="logo_img"
+            /></a>
+          </div>
+          <div class="nav">
+            <a href="about.html" class="navhere">About</a>
+            <a href="recyclabledevices.html">Recyclable Devices</a>
+            <a href="additionalresources.html">Additional Resources</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="nav-hamburger">
+            <img
+              src="img/hamburger.png"
+              alt="menu"
+              class="hamburger_img"
+              onclick="showMenu();"
+            />
+          </div>
+        </div>
+        <div class="content">
+          <h1>What We Promise:</h1>
+          <p>
+            <img src="img/about.png" class="body-img" />
+          </p>
+        </div>
+      </div>
+      <div id="menuoverlay">
+        <div id="close" onclick="hideMenu();">&times;</div>
+        <div><a href="about.html">About</a></div>
+        <div><a href="recyclabledevices.html">Recyclable Devices</a></div>
+        <div><a href="additionalresources.html">Additional Resources</a></div>
+        <div><a href="contact.html">Contact</a></div>
+      </div>
+    </div>
+  </body>
+</html>
