@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>About</title>
+    <meta name="description" content="Besy Buy Final" />
+    <meta
+      name="keywords"
+      content="html, css,floats, float left, float right, clearfix, simple grid"
+    />
+    <meta name="author" content="Intro to Web" />
+
+    <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+
+    <script src="js/menu.js" type="application/javascript"></script>
+  </head>
+
+  <body>
+    <div class="outer">
+      <div class="page">
+        <div id="menuoverlay">
+          <div id="close" onclick="hideMenu();">&times;</div>
+          <div><a href="about.html">About</a></div>
+          <div><a href="recyclabledevices.html">Recyclable Devices</a></div>
+          <div><a href="additionalresources.html">Additional Resources</a></div>
+          <div><a href="contact.html">Contact</a></div>
+        </div>
+
+        <div class="container" id="mainpage">
+          <!-- Navigation -->
+          <div class="row">
+            <div class="col-12">
+              <div class="pageheader">
+                <div class="logo">
+                  <a href="index.html"
+                    ><img
+                      src="img/logo.png"
+                      alt="BestBuy Logo"
+                      class="logo_img"
+                  /></a>
+                </div>
+                <div class="nav">
+                  <a href="#">About</a>
+                  <a href="recyclabledevices.html">Recyclable Devices</a>
+                  <a href="#">Additional Resources</a>
+                  <a href="#">Contact</a>
+                </div>
+                <div class="search">
+                  <img src="img/search.png" alt="search" class="search_img" />
+                </div>
+                <div class="nav-hamburger">
+                  <img
+                    src="img/hamburger.png"
+                    alt="menu"
+                    class="hamburger_img"
+                    onclick="showMenu();"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image Text with Sidebar -->
+          <div class="row">
+            <div class="col-7">
+                <div class="hero_content">
+                  <p class="hero_text_headline">
+                    We're More Sustainable Together
+                </p>
+                <p class="hero_sub_text">
+                  Let's keep working together to make a positive impact on the planet.
+                </p>
+                    <img src="img/recyclabledevices.png" alt="sustainability" />
+              </div>
+            </div>
+            <div class="col-5">
+                <!--SIDE BAR -->
+                <div class="side_bar">
+                    <img src="img/tradein2.png" alt="trade in" />
+                    <span class="section">Best Buy Trade-In</span></br>
+                    Before you recycle, see what your tech is worth.
+                    Trade it in, get a gift card and help keep tech out of the trash.
+                </div>
+                <!--SIDE BAR END -->
+
+                <!--SIDE BAR -->
+                <div class="side_bar">
+                    <img src="img/lightonplanet.png" alt="lighteronplanet" />
+                    <span class="section">Lighter On You And The Planet</span></br>
+                    We haul away and recycle your large tech and appliances responsibly so it's easy on you and the environment. 
+                </div>
+                <!--SIDE BAR END -->
+
+                <!--SIDE BAR -->
+                <div class="side_bar">
+                    <img src="img/networkdevice.jpg" alt="networkdevice" />
+                    <span class="section">Recycle Your Networking Devices In Store</span></br>
+                    Get a coupon for 15% off a networking device when you recycle a modem, router or modem/router combo.
+                </div>
+                <!--SIDE BAR END -->
+
+                <!--SIDE BAR -->
+                <div class="side_bar">
+                    <img src="img/employee.png" alt="employee" />
+                    <span class="section">Give Your Tech A Second Life</span></br>
+                    Extending the life of your devices and appliances is a win-win, keeping money in your pocket and e-waste out of the landfill.
+                </div>
+                <!--SIDE BAR END -->
+            </div>
+        </div>
+
+        <!-- SubHeadline Text-->
+        <div class="row">
+          <div class="col-12">
+          <p class="title">
+            Products We Recycle For Free
+            </p>
+            <p class="titlecaption">
+            You can recycle up to three items per household per day (see categories below for state-specific info, and different limitations on TVs, computer monitors and laptops).
+            </p>
+
+          <!-- Image Block -->
+          <div class="row">
+            <div class="col-12">
+              <div class="image_block">
+                <div class="row">
+                  <div class="column">
+                    <img
+                      src="img/appliances.jpg"
+                      alt="appliances"
+                      style="width: 100%"
+                    />
+                    <p>Appliances</p>
+                  </div>
+                  <div class="column">
+                    <img
+                      src="img/cellphones.jpg"
+                      alt="cellphones"
+                      style="width: 100%"
+                    />
+                    <p>Cellphones</p>
+                  </div>
+                  <div class="column">
+                    <img
+                      src="img/computers.jpg"
+                      alt="computers"
+                      style="width: 100%"
+                    />
+                    <p>Computers</p>
+                  </div>
+                  <div class="column">
+                    <img
+                      src="img/speakers.jpg"
+                      alt="speakers"
+                      style="width: 100%"
+                    />
+                    <p>Speakers</p>
+                  </div>
+                  <div class="column">
+                    <img src="img/tv.jpg" alt="tv" style="width: 100%" />
+                    <p>TV</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

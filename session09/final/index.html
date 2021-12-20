@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+    <meta name="description" content="Best Buy Final" />
+    <meta name="keywords" content="html, css,floats, float left, float right, clearfix, simple grid" />
+    <meta name="author" content="Intro to Web" />
+
+    <!-- THIS IS A LINK TO THE EXTERNAL .CSS -->
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+
+    <script src="js/menu.js" type="application/javascript"></script>
+</head>
+
+<body>
+    <div class="outer">
+        <div class="page">
+            <div id="menuoverlay">
+                <div id="close" onclick="hideMenu();">&times;</div>
+                <div><a href="about.html">About</a></div>
+                <div><a href="recyclabledevices.html">Recyclable Devices</a></div>
+                <div><a href="additionalresources.html">Additional Resources</a></div>
+                <div><a href="contact.html">Contact</a></div>
+            </div>
+              
+            <div class="container" id="mainpage">
+                <!-- Navigation -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="pageheader">
+                            <div class="logo">
+                              <a href="index.html"
+                                ><img src="img/logo.png" alt="BestBuy Logo" class="logo_img"
+                              /></a>
+                            </div>
+                            <div class="nav">
+                              <a href="#">About</a>
+                              <a href="recyclabledevices.html">Recyclable Devices</a>
+                              <a href="#">Additional Resources</a>
+                              <a href="#">Contact</a>
+                            </div>
+                            <div class="search">
+                              <img src="img/search.png" alt="search" class="search_img" />
+                            </div>
+                            <div class="nav-hamburger">
+                                <img
+                                  src="img/hamburger.png"
+                                  alt="menu"
+                                  class="hamburger_img"
+                                  onclick="showMenu();"
+                                />
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Hero -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="hero_content">
+                            <img src="img/hero.png" alt="devices" />
+                            <p class="hero_text_headline">Let's Lighten The Landfills</p>
+                            <p class="hero_sub_text">
+                              Together, we've recycled a ton. Actually, a million tons.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Block 3x4 -->
+                <div class="row homepage_image_block">
+                    <div class="col-4">
+                      <div class="image_block">
+                        <img
+                          src="img/tradein.jpg"
+                          alt="appliances"
+                          style="width: 100%"
+                        />
+                        <p class="imageblock_caption">Don't let old tech go to waste.</p>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="image_block">
+                        <img
+                          src="img/tradein2.png"
+                          alt="appliances"
+                          style="width: 100%"
+                        />
+                        <p class="imageblock_caption">Let's lighten the landfills</p>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="image_block">
+                        <img
+                          src="img/lightonplanet.png"
+                          alt="appliances"
+                          style="width: 100%"
+                        />
+                        <p class="imageblock_caption">Lighter on you and the planet</p>
+                      </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
